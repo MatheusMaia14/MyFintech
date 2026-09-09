@@ -14,3 +14,23 @@ text-align: center;
     font-weight: normal;
     text-align: right;
 }
+
+app-footer {
+    display: block;
+    margin-top: auto;
+}
+
+:host {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} 
+
+.usuario-logado {
+    margin-top: 5px;
+    margin-right: 30px;
+    color: #475569;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: right;
+}
