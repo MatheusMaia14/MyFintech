@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
+//trecho omitido
 export class LoginComponent {
-
+ onBotaoClicado() {
+ alert("Bem-vindo(a)!");
+ }
 }
